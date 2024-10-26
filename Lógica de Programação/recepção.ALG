@@ -4,7 +4,7 @@ nome, email: caractere
 idade: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreval("Boa tarde! Digite o seu nome: ")
 leia(nome)
 limpaTela()
@@ -19,7 +19,7 @@ limpaTela()
 
 escreval("Cadastro efetuado com sucesso!")
 escreval("******************")
-escreval("Usuário: ", nome)
+escreval("UsuÃ¡rio: ", nome)
 escreval("Idade: ", idade)
 escreval("Email: ", email)
 escreval("******************")
