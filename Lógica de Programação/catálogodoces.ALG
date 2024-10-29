@@ -7,9 +7,10 @@ Algoritmo "semnome"
 Var
 // Seção de Declarações das variáveis 
 opcao : caractere
+valorTotal: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+//INICIO ADICIONAR CARRINHO
  escreval(">>>Catálogo - Doces da Colmeia")
 escreval("1 - Trufa               R$8,00")
 escreval("2 - Bolo no pote        R$10,00")
@@ -20,5 +21,6 @@ escreval ("6- Cancelar")
 escreval ("7 - Carrinho")
 
 leia(opcao)
+caso "1"
+escreval("Item Trufa - 1u adicionada!")
 
-Fimalgoritmo
