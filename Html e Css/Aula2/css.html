@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 - CSS</title>
+    <!-- método 1 - link (puxa arquivo externo)-->
+    <!-- método 2 - tag style (puxa tag para abrir um espaço no html)-->
+    <!-- método 3 - tributo style (puxa atributo direto no elemento)-->
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .para{
+            color: rgb(114, 39, 255);
+            font-family: 'Times New Roman', Times, serif;      
+            background-color: rgb(255, 238, 249);    
+        }
+        h1{
+            color: rgb(114, 39, 255);
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid white;
+        }
+        #destacado{
+            background-color: blueviolet;
+        }
+        body{
+            background-color: rgb(255, 238, 249);
+        }
+        img{
+            width: 900px;
+            height: auto;
+            border-radius: 100%;
+            border: 5px solid black;            
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis numquam doloribus eius officiis sint perspiciatis? Harum aut et ullam neque tempora voluptatibus aperiam eveniet animi, earum beatae alias explicabo ut?</p>
+
+    <h2 id="destacado">Título 2</h2>
+    <h2>Subtítulo</h2>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo incidunt, et ipsum id expedita recusandae amet deserunt porro repellendus nostrum dolore maiores eum excepturi nobis. Voluptate quas voluptatum animi doloribus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem doloribus deleniti eaque minus, ad blanditiis ipsa est et quam quaerat placeat quis similique nesciunt id commodi, molestias amet. Corrupti?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis sit obcaecati numquam cumque doloremque quis qui quisquam porro impedit, dignissimos aspernatur blanditiis rem dolorem. Recusandae adipisci vel necessitatibus inventore quod.
+    </p>
+    <img src="chihiro.jpg">
+
+</body>
+</html>
