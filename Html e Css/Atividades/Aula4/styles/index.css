@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+header{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(32, 243, 225);
+    font-family: 'kanit';
+}
+header h2{
+    float: left;
+    margin-left: 20px;
+}
+nav{
+    float: right;
+    margin-right: 20px;
+}
+nav a{
+    color: rgb(6, 191, 216);
+    text-decoration: none;
+}
+#banner{
+    width: 90%;
+    height: 300px;
+    background-image:url(../images/img3.jpg) ;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    line-height: 300px;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+}
