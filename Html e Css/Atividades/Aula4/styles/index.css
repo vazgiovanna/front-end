@@ -7,7 +7,7 @@ body{
 }
 header{
     width: 100%;
-    padding: 20px 0px;
+    padding: 30px 0px;
     background-color: rgb(32, 243, 225);
     font-family: 'kanit';
 }
@@ -20,8 +20,10 @@ nav{
     margin-right: 20px;
 }
 nav a{
-    color: rgb(6, 191, 216);
+    color: white;
     text-decoration: none;
+    font-size: 10px;
+    padding: 5px;
 }
 #banner{
     width: 90%;
@@ -39,4 +41,27 @@ nav a{
 footer{
     position: absolute;
     bottom: 0%;
+}
+
+.produto{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    background-color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+#catalogo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produto img{
+    width: 100%;
 }
