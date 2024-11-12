@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: monofonto;
+    src: url(/fonts/monofonto\ rg.otf);
+}
+
+body{
+    font-family: "Noto Serif", serif;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#caixa1{
+    background-color: gold;
+    transition: 1s;
+}
+
+#caixa1:hover{
+    border-radius: 100%;
+    transition: 1s;
+}
+
+#caixa2{
+    background-color: coral;
+    transition: 0.5s;
+}
+
+#caixa2:active{
+    transition: 3s;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+#caixa3{
+    background-color: wheat;
+}
