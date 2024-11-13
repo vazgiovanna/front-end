@@ -2,12 +2,34 @@
     margin: 0px;
     padding: 0px;
 }
-#cabecalho{
+
+body{
+    font-family: "Host Grotesk", sans-serif;
+    color: aliceblue;
+}
+header{
     width: 100%;
     height: 80px;
     background-color: rgb(250, 182, 222);
-    text-align: center;
-    color: white;
-    line-height: 80px;
-    font-family: 'kanit';
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    margin-right: 30px;
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+.bi-snow2{
+    font-size: 40px;
+    color: aliceblue;
 }
