@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <form>
+        <!-- Nome -->
+        <div id="form-group">
+                <label for="nome">Nome</label>
+                <input required type="text" id="nome" placeholder="nome completo">
+        </div>
+
+        <!-- Email -->
+        <div id="form-group">
+            <label for="email">Email</label>
+            <input required type="email" name="" id="email" placeholder="ex: username@email.com">
+        </div>
+
+        <!-- Senha -->
+        <div id="form-group">
+            <label for="senha">Senha</label>
+            <input required type="password" name="" id="senha" placeholder="insira sua senha">
+        </div>        
+        
+        <!-- Sexo -->
+        <div id="form-group">
+            <label for="sexo">Sexo</label>
+            <input type="date" name="" id="data">
+        </div>
+
+        <!-- Data de Nascimento -->
+        <div class="form-group">
+            <label for="data">Data de Nascimento</label>
+            <select name="" id="sexo">
+                <option value="">Feminino</option>
+                <option value="">Masculino</option>
+                <option value="">Não-binário</option>
+                <option value="">Prefiro não dizer</option>
+            </select> 
+        </div>
+            <button onclick="mensagem()">Confirmar</button>
+        </form>
+    </main>
+
+    <script>
+        function mensagem(){
+            alert('Usuário cadastrado com sucesso!')
+        }
+    </script>
+</body>
+</html>
