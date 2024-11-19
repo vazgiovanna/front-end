@@ -1,0 +1,10 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#nomeDiv{
+    width: 60%;
+    background-color: antiquewhite;
+    color: black;
+}
