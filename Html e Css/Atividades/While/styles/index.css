@@ -16,3 +16,22 @@ header, footer{
     justify-content: space-around;
     display: flex;
 }
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+#logo img{
+    width: 30px;
+}
+
+#catalogo{
+    width: 90%;
+    margin: 10px auto;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
