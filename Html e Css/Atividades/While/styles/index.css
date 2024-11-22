@@ -51,6 +51,9 @@ nav{
     gap: 10px;
     text-align: center;
     border-radius: 10px;
+    color: black;
+    font-family: 'Arial';
+    font-size: 15px;
 }
 
 .livro img{
@@ -64,4 +67,9 @@ button{
 
 main{
     text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    border-color: lightseagreen;
 }
