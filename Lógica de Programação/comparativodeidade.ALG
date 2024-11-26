@@ -1,16 +1,16 @@
 Algoritmo "comparativodeidade"
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 class :  inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("Classificação por idade")
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
+escreval("Classificaï¿½ï¿½o por idade")
 escreval("Qual a sua idade?")
 leia (class)
 
 se (class <= 4) entao
-  escreval("A idade mínima é 5.")
+  escreval("A idade mï¿½nima ï¿½ 5.")
 senao
  se(class = 5) ou (class <= 7) entao
   escreval("Infantil A")
