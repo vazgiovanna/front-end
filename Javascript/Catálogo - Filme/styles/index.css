@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: "Geist Mono", monospace;
+}
+
+:root{
+    --corPrimaria: teal;
+    --corSecundaria: rgba(255, 255, 255, 0.897);
+    --branco: rgba(145, 189, 189, 0.884);
+}
+
+header, footer{
+    width: 100%;
+    background-color: var(--corPrimaria);
+    padding: 20px 0px;
+    justify-content: space-around;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+#logo img{
+    width: 30px;
+}
+
+#catalogo{
+    width: 90%;
+    margin: 10px auto;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filme{
+    width: 200px;
+    padding: 5px;
+    background-color: var(--corSecundaria);
+    color: var(--corPrimaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+.filme img{
+    width: 80%;
+}
+
+button{
+    display: flex;
+    padding: 5px;
+}
+
+main{
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    border-color: lightseagreen;
+}
