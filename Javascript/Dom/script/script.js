@@ -17,4 +17,4 @@ function registrarNome(){
     eu ${nome} sou muito top e programador!
     </div>`
     alert('O seu nome é '+nome)
-}
+}   
