@@ -1,45 +1,53 @@
-/*var fruta1 = 'Melancia'
-var fruta2 = 'Melão'
-var fruta3 = 'Morango'
-var fruta4 = 'Maracujá'
-var fruta5 = 'Mexerica*/
 
 fruta = [11]
 teste = Array()
-teste[0] = 'Olha'
-teste[1] = 'que'
-teste[2] = 'legal'
+teste[0] = "Olha"
+teste[1] = "Que"
+teste[2] = "Top"
+
+fruta[0] = "Melancia"
+fruta[1] = "Tomate"
+fruta[2] = "Melão"
+fruta[3] = "Maracujá"
+fruta[4] = "Mexerica"
 
 console.log(fruta)
 console.log(fruta[1])
 
-// push 'empurrar' - adicionar na lista
-fruta.push('Uva')
+// PUSH 'Empurrar' - Adicionar a Lista
+fruta.push("Uva")
 console.log(fruta)
 
-// unshift - adicionar no começo da lista
-fruta.unshift('Abacate')
+// UNSHIFT - Adicionar no Começo da Lista
+fruta.unshift("Abacate")
 console.log(fruta)
 
-// pop - remove o último
+// POP - Remover o Ultimo
 fruta.pop()
 console.log(fruta)
 
-// shift - remover o primeiro
+// SHIFT - Remover o Primeiro
 fruta.shift()
 console.log(fruta)
 
+//SPLICE - Remove, Adiciona e Atualiza
+//Onde? (Índice), Quantos vou deletar?
+//Se NENHUM o que vou adicionar?
 fruta.splice(2,3)
-fruta.splice(2,0"Morango")
-fruta.splice(1,1"Maracuja")
+fruta.splice(2,0,"Morango")
+fruta.splice(1,1,"Maracuja")
 console.log(fruta)
 
 fruta.push("Abacaxi")
 
-for(var i = 0; i < fruta.length, i++){
-    document.getElementById("resposta").innerHTML += `${fruta[i]} <br>`
+for(var i = 0; i < fruta.lenght; i++){
+    document.getElementById("resposta").innerHTML += `
+    ${fruta[i]}<br>
+    `
 }
 
 fruta.forEach(cadaFruta => {
-
-})
+    document.getElementById("resposta").innerHTML += `
+    ${cadaFruta} <br>
+    `
+});
