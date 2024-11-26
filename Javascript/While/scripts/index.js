@@ -26,7 +26,7 @@ function carregarCatalogo(){
                 <img src="${cadaLivro[0]}">
                 <h4>${cadaLivro[1]}</h4>
                 <button>Adicionar
-                    <img src="/images/plus-circle.svg">
+                    <img src="images/plus-circle.svg">
                 </button>
             </div>`
     })

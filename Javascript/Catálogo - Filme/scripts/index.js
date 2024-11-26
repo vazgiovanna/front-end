@@ -1,11 +1,11 @@
 function carregarCatalogo(){
     var filmes =[
-        ['images/livrodeclinio.jpg', 'Declínio de um homem'],
-        ['images/noitesbrancas.jpg', 'Noites brancas'],
-        ['images/evelynhugo.jpg', 'Os 7 maridos de Evelyn Hugo'],
-        ['images/conde.jpg', 'O conde de monte cristo'],
-        ['images/crimecastigo.jpg', 'Crime e castigo'],
-        ['images/miseraveis.jpg', 'Os miseráveis'],
+        ['images/500days.jpg', '500 dias com ela'],
+        ['images/aindaestouaqui.jpg', 'Ainda estou aqui'],
+        ['images/blackswan.jpg', 'Cisne Negro'],
+        ['images/butterfly.jpg', 'Efeito Borboleta'],
+        ['images/eternalsunshine.jpg', 'Brilho eterno de uma mente sem lembranças'],
+        ['images/shutterisland.jpg', 'Ilha do Medo'],
     ]
 
     filmes.forEach(cadaFilme => {
@@ -14,7 +14,7 @@ function carregarCatalogo(){
                 <img src="${cadaFilme[0]}">
                 <h4>${cadaFilme[1]}</h4>
                 <button>Adicionar
-                    <img src="/images/plus-circle.svg">
+                    <img src="images/plus-circle.svg">
                 </button>
             </div>`
     })

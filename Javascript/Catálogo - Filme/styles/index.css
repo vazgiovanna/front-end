@@ -8,9 +8,9 @@ body{
 }
 
 :root{
-    --corPrimaria: teal;
+    --corPrimaria: rgb(255, 0, 0);
     --corSecundaria: rgba(255, 255, 255, 0.897);
-    --branco: rgba(145, 189, 189, 0.884);
+    --branco: rgba(189, 189, 189, 0.884);
 }
 
 header, footer{
@@ -71,5 +71,5 @@ main{
 
 button{
     border-radius: 5px;
-    border-color: lightseagreen;
+    border-color: rgb(163, 8, 8);
 }
