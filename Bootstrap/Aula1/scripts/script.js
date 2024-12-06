@@ -29,7 +29,7 @@ lista_categorias.forEach(categoria => {
             <p class="card-text">Diversos sabores disponíveis no mercado!</p>
             <p class="card-text"><small class="text-body-secondary">${categoria.desc}</small></p>
             <p class="card-text"><small class="text-body-secondary">${categoria.marca}</small></p>
-                </div>
+                </div>s
             </div>
         </div>
      </div>    
