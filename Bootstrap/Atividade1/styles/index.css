@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-image: url('https://revista-cdn.querobolsa.com.br/post_images/40437/0cbc867f79b9bf656172debd26d72bc12b8543a6.jpg?1655324000'); 
+    background-size: cover; 
+    background-position: center;
+    height: 400px; 
+    width: 100%; 
+    opacity: 0.9;
+}
+
+#conteudo{
+    text-align: center;
+    margin: 30px;
+}
+
+#cards{
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
