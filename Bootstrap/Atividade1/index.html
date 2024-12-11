@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-sssssbr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quintal Cultural</title>
     <link rel="stylesheet" href="/styles/index.css">
+    <link rel="shortcut icon" href="/images/cineicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,59 +13,69 @@
 </head>
 <body>
     <header>
-        <!--cabeçalho-->
+        <!-- Cabeçalho -->
     </header>
-      
+
     <div id="cards">
-    <div class="card mb-3" style="max-width: 700px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/images/aindaestouaqui.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Ainda estou aqui</h5>
-              <!-- Adicionando o botão -->
-              <button class="btn btn-primary">Saiba mais</button>
+        <div class="card mb-3" style="max-width: 700px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/aindaestouaqui.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Ainda estou aqui</h5>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" data-title="Ainda estou aqui" data-text="No início da década de 1970, o Brasil enfrenta o endurecimento da ditadura militar. No Rio de Janeiro, a família Paiva - Rubens, Eunice e seus cinco filhos - vive à beira da praia em uma casa de portas abertas para os amigos. Um dia, Rubens Paiva é levado por militares à paisana e desaparece. Eunice - cuja busca pela verdade sobre o destino de seu marido se estenderia por décadas - é obrigada a se reinventar e traçar um novo futuro para si e seus filhos.">Saiba mais</button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
 
-      <div class="card mb-3" style="max-width: 700px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://s2-globofilmes.glbimg.com/5pZc5id2_e_ONVClrGN-mzVD51E=/0x0:1348x2000/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_755cbb8e98bc4df6b024f1581a117b52/internal_photos/bs/2023/0/e/CKY7UyT4GnQRCsD2uOsQ/cartazauto.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">O auto da compadecida</h5>
-              <!-- Adicionando o botão -->
-              <button class="btn btn-primary">Saiba mais</button>
+        <div class="card mb-3" style="max-width: 700px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://s2-globofilmes.glbimg.com/5pZc5id2_e_ONVClrGN-mzVD51E=/0x0:1348x2000/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_755cbb8e98bc4df6b024f1581a117b52/internal_photos/bs/2023/0/e/CKY7UyT4GnQRCsD2uOsQ/cartazauto.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">O auto da compadecida</h5>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" data-title="O auto da compadecida" data-text="As aventuras de João Grilo e Chicó, dois nordestinos pobres que vivem de golpes para sobreviver. Eles estão sempre enganando o povo de um pequeno vilarejo, inclusive o temido cangaceiro Severino de Aracaju, que os persegue pela região.">Saiba mais</button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
 
-      <div class="card mb-3" style="max-width: 700px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://d3swacfcujrr1g.cloudfront.net/img/uploads/2023/09/01_72618-1.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Central do Brasil</h5>
-              <!-- Adicionando o botão -->
-              <button class="btn btn-primary">Saiba mais</button>
+        <div class="card mb-3" style="max-width: 700px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://d3swacfcujrr1g.cloudfront.net/img/uploads/2023/09/01_72618-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Central do Brasil</h5>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" data-title="Central do Brasil" data-text="Dora, uma amargurada ex-professora, ganha a vida escrevendo cartas para pessoas analfabetas, que ditam o que querem contar às suas famílias. Ela embolsa o dinheiro sem sequer postar as cartas. Um dia, Josué, o filho de nove anos de idade de uma de suas clientes, acaba sozinho quando a mãe é morta em um acidente de ônibus. Ela reluta em cuidar do menino, mas se junta a ele em uma viagem pelo interior do Nordeste em busca do pai de Josué, que ele nunca conheceu.">Saiba mais</button>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p></p>
           </div>
         </div>
       </div>
     </div>
-      
-    <footer>Nos siga em nossas redes sociais.</footer>
 
-<script src="/scripts/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
