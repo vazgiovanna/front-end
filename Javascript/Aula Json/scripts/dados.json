@@ -1,0 +1,24 @@
+{
+    "usuarios" : [
+        {
+            "nome" : "Giovanna",
+            "cpf" : "09023178343",
+            "senha" : "1234",
+            "endereco" : "fazenda taboquinha"
+        },
+        {
+            "id" : "1",
+            "nome" : "Maria",
+            "cpf" : "458632514236",
+            "senha" : "4321",
+            "endereco" : "riacho fundo"
+        },
+        {
+            "id" : "2",
+            "nome" : "Marisa",
+            "cpf" : "854769852145",
+            "senha" : "1231",
+            "endereco" : "brasilia"
+        }
+    ]
+}
