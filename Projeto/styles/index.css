@@ -3,8 +3,10 @@
     margin: 0%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 @font-face {
-    font-family: "Poppin";
+    font-family: "Poppins";
     src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 }
 
@@ -12,6 +14,7 @@
     text-align: center;
     padding: 6px;
     font-family: "Poppins", serif;
+    font-weight: bold;
 }
 
 .segundaHeader{
@@ -22,6 +25,48 @@
 }
 
 .segundaHeader img{
-    border-radius: 8px;
-    border: 2px solid beige
+    border-radius: 40px;
+}
+
+.marca{
+    text-align: center;
+}
+
+.nav{
+    background-color:  bisque;
+    font-family: 'Poppins Light';
+}
+
+.nav-link{
+    --bs-nav-link-color: black;
+}
+
+.cardDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0px;
+    gap: 50px;
+}
+
+h2{
+    font-family: 'Poppins';
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+
+.card{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13px;
+}
+
+#bannerPele{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+#bannerPele img{
+    border-radius: 40px;
 }
