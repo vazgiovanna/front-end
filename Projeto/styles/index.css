@@ -3,18 +3,14 @@
     margin: 0%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-
-@font-face {
-    font-family: "Poppins";
-    src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
-}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 .textoBarra{
     text-align: center;
     padding: 6px;
-    font-family: "Poppins", serif;
+    font-family: 'Poppins';
     font-weight: bold;
+    width: auto;
 }
 
 .segundaHeader{
@@ -34,7 +30,7 @@
 
 .nav{
     background-color: rgb(253, 239, 221);
-    font-family: 'Poppins Light';
+    font-family: 'Poppins';
 }
 
 .nav-link{
@@ -50,10 +46,11 @@
 }
 
 h2{
-    font-family: 'Poppins';
+    font-family: "Poppins";
     text-align: center;
     font-weight: 400;
     letter-spacing: 15px;
+    margin: 40px;
 }
 
 .card{
@@ -69,4 +66,15 @@ h2{
 
 #bannerPele img{
     border-radius: 40px;
+}
+
+.footer{
+    max-width: 1200px;
+}
+.rodape{
+    background-color: rgb(253, 239, 221);
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Poppins';
 }
