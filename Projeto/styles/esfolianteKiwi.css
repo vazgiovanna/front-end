@@ -1,0 +1,32 @@
+.textoBarra{
+    text-align: center;
+    padding: 6px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    width: auto;
+}
+
+.nav{
+    background-color: rgb(253, 239, 221);
+    font-family: 'Poppins';
+}
+
+.nav-link{
+    --bs-nav-link-color: black;
+}
+
+.produto{
+    width: 35%;
+    height: 599px;
+    background-image: url('/images/esfoliantekiwi.png');
+    background-position: top;
+}
+
+.especificacaoProduto{
+    width: 65%;
+    height: 599px;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
